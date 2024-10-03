@@ -1,0 +1,35 @@
+.projects{
+  width: 80% !important;
+  margin-left: 10% !important;
+}
+  .projects:last-child{
+    margin-bottom: 10vh;
+  }
+
+.line{
+  float: left;
+  height:300px;
+  width: 1px;
+  background: black;
+}
+  .a-project{
+    float: left;
+    margin-left: 1vw;
+  }
+.portfolio-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.portfolio-gallery img{
+  box-shadow: none;
+  height: 50vh;
+  margin-right: 2%;
+
+  cursor: zoom-in;
+}
+.portfolio-gallery img:hover{
+  transform: scale(1.3);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
